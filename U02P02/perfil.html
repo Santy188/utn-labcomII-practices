@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datos Personales</title>
+    <style>
+        
+        textarea{
+            resize: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Formulario Datos Personales</h1>
+    <form action="">
+        <fieldset>
+            <legend>ESTUDIANTE</legend>
+            <label for="Perfil">Nombre Completo:</label><br>
+            <input type="text" name="Perfil" required/><br>
+
+            <label for="Perfil">Email:</label><br>
+            <input type="email" name="Perfil" required/><br>
+
+            <label for="Perfil">Edad:</label><br>
+            <input type="number" name="Perfil" min="1" max="100"><br>
+
+            <label for="Perfil">Nacionalidad:</label><br>
+            <select name="Perfil"><br>
+                <option value="Arg">Argentina</option>
+                <option value="Cl">Chile</option>
+                <option value="Ug">Uruguay</option>
+                <option value="Bl">Bolivia</option>
+                <option value="Br">Brasil</option>
+                <option value="Pr">Paraguay</option>
+            </select><br>
+
+            <label for="Perfil">Estado Laboral:</label><br>
+            <select name="Pefil"><br>
+                <option value="des">Desempleado</option>
+                <option value="busqueda">En busca de trabajo</option>
+                <option value="--tiempo">Part Time</option>
+                <option value="+tiempo">Full Time</option>
+            </select>
+        </fieldset><br>
+        
+        <fieldset>
+            <legend>GUSTOS PERSONALES</legend>
+            <label for="Perfil">Gustos Musicales:</label><br>
+            <textarea name="Perfil" cols="30" rows="3"></textarea><br>
+
+            <label for="Perfil">Comidas Favoritas:</label><br>
+            <textarea name="Perfil" cols="30" rows="3"></textarea><br>
+        </fieldset><br>
+        <input type="submit" value="Enviar" /> 
+        <input type="checkbox" name="Perfil"/>
+        <label for="checkbox">Recordar Datos</label>
+    </form>
+</body>
+</html>
