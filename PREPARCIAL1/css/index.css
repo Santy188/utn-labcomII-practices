@@ -1,0 +1,9 @@
+.logo{
+    display: grid;
+}
+ul{
+    display: grid;
+}
+a{
+    flex-grow: 0;
+}
