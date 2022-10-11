@@ -1,0 +1,18 @@
+select {
+    background: transparent;
+    font-size: 14px;
+    height: 30px;
+    padding: 5px;
+    width: 260px;
+}
+
+input.pesosARG {
+    font-size: 14px;
+    height: 15px;
+    padding: 5px;
+    width: 250px;
+}
+
+input#id_enviar {
+    padding: 5px;
+}
